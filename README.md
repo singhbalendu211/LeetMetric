@@ -17,7 +17,7 @@
 
 ## 🔴 Live Demo
 
-🔗 [Click here to try LeetMetric online](https://yourusername.github.io/LeetMetric)
+🔗 [Click here to try LeetMetric online]('https://leetmetric.netlify.app')
 
 > Make sure to enter a valid LeetCode username (e.g. `tourist`, `striver79`).
 
