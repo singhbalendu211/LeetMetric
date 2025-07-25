@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetMetric</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header class="header-cont">
+        <div class="container"> <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+        <img src="./assets/speedometer.png" width="40" height="35" style="margin: 5px;" aria-hidden="true">
+   
+        <span class="fs-4" >LeetMetric</span> </a> 
+        <ul class="nav nav-pills"> 
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li> 
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li> <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li> </ul> </header> </div>
+    </header>
+
+
+
+    <main class="main-Container">
+
+         <div class="L-container">
+        <h1>LeetMetric</h1>
+
+        <div class="user-container">
+            <p>Enter your username below: </p>
+
+            <div class="user-input-container">
+                <input type="text" placeholder="enter your username here" id="user-input">
+                <button id="search-btn" type="button" class="btn btn-info">Search</button>
+            </div>
+
+        </div>
+
+        <div class="stats-container">
+
+            <div class="progress">
+
+                <div class="progress-item ">
+                    <div class="easy-progress circle">
+                        <span id="easy-label"></span>
+                        <p>Easy</p> 
+                    </div>
+                </div>
+
+                <div class="progress-item ">
+                    <div class="medium-progress circle">
+                         <span id="medium-label"></span>
+                       <p>Medium</p> 
+                    </div>
+                </div>
+
+                <div class="progress-item ">
+                    <div class="hard-progress circle">
+                    <span id="hard-label"></span>
+                    <p>Hard</p>  
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="stats-card">
+               <!-- directly populate card here from the JS code  -->
+            </div>
+
+        </div>
+
+    </div>
+    </main>
+
+   
+
+
+     <footer>
+        <div class="container"> 
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
+            <div class="col-md-4 d-flex align-items-center"> 
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> 
+            <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> </div> 
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> <li class="ms-3">
+            <a class="text-body-secondary" href="#" aria-label="Instagram">
+           <a href="https://www.instagram.com/" title="instagram icons"><img src="./assets/instagram.png"  width="30" height="30" alt="instaIcon"></a></use></svg></a></li> 
+            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook">
+           <a href="https://www.facebook.com/" title="instagram icons"><img src="./assets/facebook.png"  width="30" height="30" alt="fbIcon"></a></a></li> </ul> 
+        </footer> </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
