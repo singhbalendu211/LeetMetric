@@ -17,7 +17,7 @@
 
 ## 🔴 Live Demo
 
-🔗 [Click here to try LeetMetric online](https://leetmetric.netlify.app)
+🔗 [Click here to try LeetMetric online](https://thunderous-buttercream-2c4e99.netlify.app/)
 
 > Make sure to enter a valid LeetCode username (e.g. `tourist`, `striver79`).
 
