@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
             variables: { username: username }
         };
 
-        const response = await fetch('http://localhost:4000/leetcode', {
+        const response = await fetch('https://leetmetric-backend.onrender.com/leetcode', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
