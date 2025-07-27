@@ -118,3 +118,75 @@ h4{
     min-height: 4rem;
 }
 
+
+
+/* responsiveness added */
+
+@media (max-width: 768px) {
+    .L-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .user-input-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    #user-input {
+        width: 100%;
+    }
+
+    #search-btn {
+        width: 100%;
+    }
+
+    .circle {
+        width: 90px;
+        height: 90px;
+        font-size: 0.9rem;
+    }
+
+    .stats-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        font-size: 0.95rem;
+    }
+
+    .progress {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .circle {
+        width: 70px;
+        height: 70px;
+        font-size: 0.75rem;
+    }
+
+    .card {
+        font-size: 0.85rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .stats-container {
+        text-align: center;
+    }
+}
+
