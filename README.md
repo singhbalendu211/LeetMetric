@@ -1,7 +1,7 @@
 # 🚀 LeetMetric
 
 📊 **LeetMetric** is a simple yet powerful web app that fetches and visualizes your LeetCode profile stats — including Easy, Medium, and Hard problems solved — with clean UI and real-time updates.
- 
+
 ![LeetMetric Demo](assets/preview1.png)
 ![LeetMetric Demo](assets/preview2.png)
 
